@@ -1,0 +1,8 @@
+prefix=/home/yagnadatta/Desktop/control/lqr_controller/build/devel
+
+Name: mpc_controller
+Description: Description of mpc_controller
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

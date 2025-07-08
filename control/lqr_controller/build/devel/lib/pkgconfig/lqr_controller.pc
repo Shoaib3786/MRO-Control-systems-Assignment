@@ -1,0 +1,8 @@
+prefix=/home/yagnadatta/Desktop/control/lqr_controller/build/devel
+
+Name: lqr_controller
+Description: Description of lqr_controller
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

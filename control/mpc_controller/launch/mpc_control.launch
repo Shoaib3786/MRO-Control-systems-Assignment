@@ -1,0 +1,12 @@
+<launch>
+    <node
+        name="turtlebot_mpc_node"
+        pkg="mpc_controller"
+        type="mpc_controller.py"
+        output="screen"
+    >
+        <param name="goal_x" value="5.0" />
+        <param name="goal_y" value="3.0" />
+        <param name="goal_theta" value="0.5" />
+    </node>
+</launch>

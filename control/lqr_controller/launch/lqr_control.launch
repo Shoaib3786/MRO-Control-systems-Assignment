@@ -1,0 +1,12 @@
+<launch>
+    <node
+        name="turtlebot_lqr_node"
+        pkg="lqr_controller"
+        type="lqr_control.py"
+        output="screen"
+    >
+        <param name="goal_x" value="2.0" />
+        <param name="goal_y" value="3.0" />
+        <param name="goal_theta" value="0.5" />
+    </node>
+</launch>
